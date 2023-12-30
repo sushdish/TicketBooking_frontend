@@ -3,7 +3,7 @@ export const addItemToCart = (item, next) => {
   if (typeof window !== "undefined") {
     if (localStorage.getItem("cart")) {
       cart = JSON.parse(localStorage.getItem("cart"));
-    }
+    } 
 
     let alreadyExist = false;
 
